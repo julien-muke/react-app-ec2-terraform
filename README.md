@@ -27,7 +27,9 @@ like these step-by-step in a beginner-friendly manner!
 
 ## <a name="introduction">🤖 Introduction</a>
 
-We are going to learn how to create an Amazon EC2 instance using Terraform. Terraform is a popular tool for building, changing, and versioning infrastructure safely and efficiently. 
+We’re going to walk through how to deploy a React.js application on AWS using an EC2 instance with Terraform. If you want to automate your infrastructure and host your React app on the cloud, this is the video for you.
+
+We’ll cover everything from setting up Terraform, launching an EC2 instance, and deploying your React app step-by-step. So, stick around, and by the end of this tutorial, you’ll have your React.js app live on AWS!
 
 
 ## 📐 Architecture Diagram Overview
