@@ -65,7 +65,6 @@ First, we’ll set up a React app by cloning the React app from GitHub. If you a
 git clone https://github.com/julien-muke/brainwave.git
 ```
 
-
 ## ➡️ Step 1 - Create an IAM User, and the Access Key
 
 First, we need to create a user and then create access keys for that particular user so that we can work with them for our authentication purpose.
@@ -133,7 +132,9 @@ We are going to configure basic settings that the AWS Command Line Interface (AW
 touch main.tf
 ```
 
-2. Open main.tf in your text editor, paste in the configuration below, and save the file.
+2. Open main.tf in your text editor (VS Code), copy and paste the configuration below.
+
+⚠️Note: This script provisions an EC2 instance, installs Nginx, and deploys your React app. 
 
 
 ```bash
