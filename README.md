@@ -62,7 +62,7 @@ Make sure you have the following installed on your machine:
 First, we’ll set up a React app by cloning the React app from GitHub. If you already have one, feel free to skip this part.
 
 ```bash
-    git clone https://github.com/julien-muke/brainwave.git
+git clone https://github.com/julien-muke/brainwave.git
 ```
 
 
