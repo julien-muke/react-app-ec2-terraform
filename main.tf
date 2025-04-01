@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 resource "aws_instance" "react_app" {
-  ami           = "ami-071226ecf16aa7d96"  # Amazon Linux 2 AMI (Change based on your region)
+  ami           = "ami-xxxxxxxxxxxx"  # Amazon Linux 2 AMI (Change based on your region)
   instance_type = "t2.micro"
 
   security_groups = [aws_security_group.react_sg.name]
@@ -22,7 +22,7 @@ resource "aws_instance" "react_app" {
               
               # Clone React App from GitHub
               sudo yum install -y git
-              git clone https://github.com/julien-muke/brainwave.git /home/ec2-user/react-app
+              git clone https://github.com/yourusername/your-react-app.git /home/ec2-user/react-app
               
               # Build React App
               cd /home/ec2-user/react-app
@@ -33,7 +33,7 @@ resource "aws_instance" "react_app" {
               sudo rm -rf /usr/share/nginx/html/*
               
               # Copy React build files to Nginx
-              sudo cp -r /home/ec2-user/react-app/dist/* /usr/share/nginx/html/
+              sudo cp -r /home/ec2-user/react-app/build/* /usr/share/nginx/html/
 
               # Restart Nginx
               sudo systemctl restart nginx
