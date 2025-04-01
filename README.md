@@ -56,6 +56,16 @@ Make sure you have the following installed on your machine:
 - The [AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html) installed.
 - The [AWS account](https://aws.amazon.com/free/) and [associated credentials](https://docs.aws.amazon.com/IAM/latest/UserGuide/security-creds.html) that allow you to create resources.
 
+
+## <a name="clone-repo">🚀 Cloning the Repository</a>
+
+First, we’ll set up a React app by cloning the React app from GitHub. If you already have one, feel free to skip this part.
+
+```bash
+    git clone https://github.com/julien-muke/brainwave.git
+```
+
+
 ## ➡️ Step 1 - Create an IAM User, and the Access Key
 
 First, we need to create a user and then create access keys for that particular user so that we can work with them for our authentication purpose.
