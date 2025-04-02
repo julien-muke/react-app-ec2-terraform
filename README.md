@@ -57,7 +57,7 @@ Make sure you have the following installed on your machine:
 - The [AWS account](https://aws.amazon.com/free/) and [associated credentials](https://docs.aws.amazon.com/IAM/latest/UserGuide/security-creds.html) that allow you to create resources.
 
 
-## <a name="clone-repo">🚀 Cloning the Repository</a>
+## <a name="clone-repo">	:octocat:  Cloning the Repository</a>
 
 First, we’ll set up a React app by cloning the React app from GitHub. If you already have one, feel free to skip this part.
 
@@ -248,4 +248,6 @@ Find the instance in the AWS console and copy the public IP. Visit:
 Open it in a browser: `http://your-ec2-public-ip`
 
 You should see your React.js app running! 🚀
+
+## 🗑️ Clean Up Resources
 
