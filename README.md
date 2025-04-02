@@ -225,6 +225,8 @@ resource "aws_security_group" "react_sg" {
 }
 ```
 
+⚠️Note: Replace `https://github.com/yourusername/your-react-app.git` with your actual GitHub repository URL.
+
 ## ➡️ Step 4 - Execute the Terraform Script
 
 1. Initialize Terraform
@@ -239,5 +241,11 @@ terraform init
 terraform apply -auto-approve
 ```
 
-3. Access Your App
+3. Access Your App via the EC2 public IP
+
+Find the instance in the AWS console and copy the public IP. Visit:
+
+Open it in a browser: `http://your-ec2-public-ip`
+
+You should see your React.js app running! 🚀
 
