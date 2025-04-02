@@ -83,6 +83,8 @@ First, we need to create a user and then create access keys for that particular 
 
 6. Review the details and click "Create user"
 
+![Image](https://github.com/user-attachments/assets/65675d0c-852c-4eac-b8d6-79743bba3b87)
+
 Now you can see that our user has been successfully created.
 
 Next, let's create the access key for the user
