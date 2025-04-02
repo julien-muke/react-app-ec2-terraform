@@ -1,4 +1,4 @@
-# ![aws](https://github.com/julien-muke/Search-Engine-Website-using-AWS/assets/110755734/01cd6124-8014-4baa-a5fe-bd227844d263) How to Deploy WordPress Website on AWS using EC2, RDS, ALB and more (Part1).
+# ![aws](https://github.com/julien-muke/Search-Engine-Website-using-AWS/assets/110755734/01cd6124-8014-4baa-a5fe-bd227844d263) Deploy a React.js application on AWS using an EC2 instance with Terraform
 
 <div align="center">
 
@@ -8,7 +8,7 @@
     </a>
   <br />
 
-<h3 align="center">How to Deploy WordPress Website on AWS using EC2</h3>
+<h3 align="center">Deploying a React app using EC2 and Terraform</h3>
 
    <div align="center">
      Build this hands-on demo step by step with my detailed tutorial on <a href="http://www.youtube.com/@julienmuke/videos" target="_blank"><b>Julien Muke</b></a> YouTube. Feel free to subscribe 🔔!
@@ -27,12 +27,12 @@ like these step-by-step in a beginner-friendly manner!
 
 ## <a name="introduction">🤖 Introduction</a>
 
-We’re going to walk through how to deploy a React.js application on AWS using an EC2 instance with Terraform. If you want to automate your infrastructure and host your React app on the cloud, this is the video for you.
+We’re going to walk through how to deploy a React.js application on AWS using an EC2 instance with Terraform. If you want to automate your infrastructure and host your React app on the cloud, this is the tutorial for you.
 
-We’ll cover everything from setting up Terraform, launching an EC2 instance, and deploying your React app step-by-step. So, stick around, and by the end of this tutorial, you’ll have your React.js app live on AWS!
+We’ll cover everything from setting up Terraform, launching an EC2 instance, and deploying your React app step-by-step. By the end of this tutorial, you’ll have your React.js app live on AWS!
 
 
-## 📐 Architecture Diagram Overview
+## 📐 Architecture Diagram
 
 ![Image](https://github.com/user-attachments/assets/d389dae9-e6e7-44af-b15e-791d5f8f9642)
 
