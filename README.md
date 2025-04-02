@@ -251,3 +251,10 @@ You should see your React.js app running! 🚀
 
 ## 🗑️ Clean Up Resources
 
+When you’re done, clean up your AWS resources to avoid charges:
+
+```bash
+terraform destroy
+```
+
+
