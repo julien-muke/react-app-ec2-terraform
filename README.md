@@ -77,7 +77,7 @@ First, we need to create a user and then create access keys for that particular 
 4. Enter the "User name" i will use `ec2-terraform` then click "Next"
 
 ![Image](https://github.com/user-attachments/assets/45c24e90-faa2-4728-8e0d-7a24a023d953)
-5. Set permissions, choose "Attached policies directly" search and choose `AmazonEC2FullAccess` then click "Next"
+5. Set permissions, choose "Attached policies directly" search and choose `AmazonEC2FullAccess` and `AmazonEC2FullAccess` then click "Next"
 
 ![Image](https://github.com/user-attachments/assets/a78f2a07-39b3-4959-8df6-2c8646fee142)
 
@@ -89,7 +89,7 @@ Now you can see that our user has been successfully created.
 
 Next, let's create the access key for the user
 
-7. Click on the user we just created
+7. Click on the user we just created or click on `View user`
 
 ![Image](https://github.com/user-attachments/assets/5856a2e0-2e85-4b3a-9d40-34f259c36248)
 
@@ -97,7 +97,7 @@ Next, let's create the access key for the user
 
 ![Image](https://github.com/user-attachments/assets/f920eb9d-dad3-4ea1-be81-3c147e7c2e79)
 
-9. Since I am going to work with command line interface, we will choose CLI and check the confirmation box and click "Next"
+9. Since I am going to work with `Command Line Interface (CLI), we will choose CLI and check the confirmation box and click "Next"
 
 ![Image](https://github.com/user-attachments/assets/a2737aa2-2ae9-416f-8744-2594cc7ca205)
 
