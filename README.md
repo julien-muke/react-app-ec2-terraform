@@ -89,17 +89,16 @@ Next, let's create the access key for the user
 
 7. Click on the user we just created
 
-![Screenshot 2024-05-05 at 12 59 44](https://github.com/julien-muke/aws-ec2-terraform/assets/110755734/5c8a1851-c9d4-4500-9816-d913cf133e2c)
-
+![Image](https://github.com/user-attachments/assets/5856a2e0-2e85-4b3a-9d40-34f259c36248)
 
 8. Scroll down to security crendentials tab, and click "Create access key"
 9. Since I am going to work with command line interface, we will choose CLI and check the confirmation box and click "Next"
 
-![Create-access-key-IAM-Global](https://github.com/julien-muke/aws-ec2-terraform/assets/110755734/38d247fc-4ed8-4e45-962c-c8c17400dbd3)
+![Image](https://github.com/user-attachments/assets/a2737aa2-2ae9-416f-8744-2594cc7ca205)
 
 10. The access key is successfully created, now it will show the access key as well as the secret access key, I will simply go and download the CSV file.
 
-![Screenshot 2024-05-05 at 13 00 36](https://github.com/julien-muke/aws-ec2-terraform/assets/110755734/0c21c652-5cf0-4b8f-8e8e-bfb828a03e2c)
+![Image](https://github.com/user-attachments/assets/a9679222-d84f-4855-a0d5-869667a8dc6d)
 
 
 ## ➡️ Step 2 - Configure AWS profile and set up the AWS CLI
