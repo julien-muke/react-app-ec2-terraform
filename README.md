@@ -123,18 +123,31 @@ We are going to configure basic settings that the AWS Command Line Interface (AW
 ![2](https://github.com/julien-muke/aws-ec2-terraform/assets/110755734/3d5a2a6f-9d22-4cf7-b065-3e5d2b0765c7)
 
 
-## ➡️ Step 3 - Create Terraform file (.tf) and write the Script
+## ➡️ Step 3 - Set Up Terraform Configuration
 
+Now, let’s jump into Terraform. Create a project directory and initialize it.
 
-1. Create a file to define your infrastructure by running the following command:
+1. Create a new directory for your Terraform project:
+
+```bash
+mkdir react-app-ec2-terraform
+cd react-ec2-terraform
+```
+
+2. Create a `main.tf` file:
 
 ```bash
 touch main.tf
 ```
 
-2. Open main.tf in your text editor (VS Code), copy and paste the configuration below.
+3. Open `main.tf` in your code editor (VS Code), copy and paste the configuration below.
 
-⚠️Note: This script provisions an EC2 instance, installs Nginx, and deploys your React app. 
+⚠️Note: This script provisions an EC2 instance:
+
+✅ Installing Node.js and npm
+✅ Cloning the React app from GitHub
+✅ Building the app
+✅ Deploying it to Nginx
 
 
 ```bash
