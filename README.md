@@ -142,12 +142,13 @@ touch main.tf
 
 3. Open `main.tf` in your code editor (VS Code), copy and paste the configuration below.
 
-⚠️Note: This script provisions an EC2 instance:
+⚠️Note: Here’s a Terraform script to deploy a React.js app on AWS using an EC2 instance with Nginx. The setup includes:
 
-✅ Installing Node.js and npm
-✅ Cloning the React app from GitHub
-✅ Building the app
-✅ Deploying it to Nginx
+✅ Provisioning an EC2 instance <br/>
+✅ Installing Nginx <br/>
+✅ Deploying a React.js app <br/>
+✅ Configuring security groups <br/>
+✅ Using user data to automate setup <br/>
 
 
 ```bash
@@ -223,3 +224,20 @@ resource "aws_security_group" "react_sg" {
   }
 }
 ```
+
+## ➡️ Step 4 - Execute the Terraform Script
+
+1. Initialize Terraform
+
+```bash
+terraform init
+```
+
+2. Plan and Apply
+
+```bash
+terraform apply -auto-approve
+```
+
+3. Access Your App
+
