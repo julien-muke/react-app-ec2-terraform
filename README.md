@@ -133,15 +133,15 @@ cd aws-ec2-terraform
 
 ## ➡️ Step 3 - Set Up Terraform Configuration
 
-Now, let’s jump into Terraform. Create a project directory and initialize it.
+Now, let’s jump into Terraform and initialize our project.
 
-Create a `main.tf` file:
+Create a `main.tf` file inside our project directory
 
 ```bash
 touch main.tf
 ```
 
-3. Open `main.tf` in your code editor (VS Code), copy and paste the configuration below.
+3. Copy and paste the Terraform configuration below:
 
 ⚠️Note: Here’s a Terraform script to deploy a React.js app on AWS using an EC2 instance with Nginx. The setup includes:
 
