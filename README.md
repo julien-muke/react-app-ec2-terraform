@@ -111,7 +111,15 @@ Next, let's create the access key for the user
 We are going to configure basic settings that the AWS Command Line Interface (AWS CLI) uses to interact with AWS. These include your security credentials, the default output format, and the default AWS Region.
 
 
-1. Open VS Code (or any IDE of your choise) and run the command `aws configure`
+1. Open VS Code (or any IDE of your choise) 
+2. Create a new directory for your Terraform project:
+
+```bash
+mkdir aws-ec2-terraform
+cd aws-ec2-terraform
+```
+
+3. Run the command `aws configure`
 2. Copy and paste your AWS Access Key ID
 3. Copy and paste your AWS Secret Access key
 4. Keep as default region name and output format
@@ -127,14 +135,7 @@ We are going to configure basic settings that the AWS Command Line Interface (AW
 
 Now, let’s jump into Terraform. Create a project directory and initialize it.
 
-1. Create a new directory for your Terraform project:
-
-```bash
-mkdir react-app-ec2-terraform
-cd react-ec2-terraform
-```
-
-2. Create a `main.tf` file:
+Create a `main.tf` file:
 
 ```bash
 touch main.tf
