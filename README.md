@@ -39,10 +39,12 @@ We’ll cover everything from setting up Terraform, launching an EC2 instance, a
 
 ## <a name="steps">☑️ Steps</a>
 
+1. Clone React.js App from Github
 1. Create an IAM User
 2. Configure AWS profile and set up the AWS CLI
-3. Create Terraform file (.tf) and write the Script
-4. Execute the Terraform Script
+3. Set Up Terraform Configuration
+4. Deploy the Infrastructure with Terraform
+5. Clean Up Resources
 
 ## <a name="quick-start">🤸 Quick Start</a>
 
@@ -188,7 +190,7 @@ resource "aws_instance" "react_app" {
               sudo rm -rf /usr/share/nginx/html/*
               
               # Copy React build files to Nginx
-              sudo cp -r /home/ec2-user/react-app/build/* /usr/share/nginx/html/
+              sudo cp -r /home/ec2-user/react-app/dist/* /usr/share/nginx/html/
 
               # Restart Nginx
               sudo systemctl restart nginx
@@ -228,7 +230,7 @@ resource "aws_security_group" "react_sg" {
 
 ⚠️Note: Replace `https://github.com/yourusername/your-react-app.git` with your actual GitHub repository URL.
 
-## ➡️ Step 4 - Execute the Terraform Script
+## ➡️ Step 4 - Deploy the Infrastructure with Terraform
 
 1. Initialize Terraform
 
