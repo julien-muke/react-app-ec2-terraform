@@ -79,7 +79,7 @@ First, we need to create a user and then create access keys for that particular 
 4. Enter the "User name" i will use `ec2-terraform` then click "Next"
 
 ![Image](https://github.com/user-attachments/assets/45c24e90-faa2-4728-8e0d-7a24a023d953)
-5. Set permissions, choose "Attached policies directly" search and choose `AmazonEC2FullAccess` and `AmazonEC2FullAccess` then click "Next"
+5. Set permissions, choose "Attached policies directly" search and choose `AmazonEC2FullAccess` and `AdminstratorAccess` then click "Next"
 
 ![Image](https://github.com/user-attachments/assets/a78f2a07-39b3-4959-8df6-2c8646fee142)
 
