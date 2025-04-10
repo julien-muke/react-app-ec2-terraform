@@ -33,7 +33,7 @@ resource "aws_instance" "react_app" {
               sudo rm -rf /usr/share/nginx/html/*
               
               # Copy React build files to Nginx
-              sudo cp -r /home/ec2-user/react-app/build/* /usr/share/nginx/html/
+              sudo cp -r /home/ec2-user/react-app/dist/* /usr/share/nginx/html/
 
               # Restart Nginx
               sudo systemctl restart nginx
