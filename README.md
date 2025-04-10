@@ -1,4 +1,4 @@
-# ![aws](https://github.com/julien-muke/Search-Engine-Website-using-AWS/assets/110755734/01cd6124-8014-4baa-a5fe-bd227844d263) Deploy a React.js application on AWS using an EC2 instance with Terraform
+# ![aws](https://github.com/julien-muke/Search-Engine-Website-using-AWS/assets/110755734/01cd6124-8014-4baa-a5fe-bd227844d263) Deploying a React.js App on AWS EC2 Using Terraform | Complete Automation Tutorial 💻🚀
 
 <div align="center">
 
