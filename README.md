@@ -17,7 +17,7 @@
 
 ## 🚨 Tutorial
 
-This repository contains the steps corresponding to an in-depth tutorial available on our YouTube
+This repository contains the steps corresponding to an in-depth tutorial available on my YouTube
 channel, <a href="http://www.youtube.com/@julienmuke/videos" target="_blank"><b>Julien Muke</b></a>.
 
 If you prefer visual learning, this is the perfect resource for you. Follow my tutorial to learn how to build projects
